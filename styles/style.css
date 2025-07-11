@@ -245,5 +245,46 @@ main{
     background-color: orange;
 }
 
+/* footer styles */
+.footer-section{
+    background-color: #FFFFFF;
+    height: 428px;
+    width: auto;
+    text-align: center;
+    padding: 104px 455px 103px 454px;
+    
+}
+.footer-section p{
+    color: #8987A1;
+    font-size: 16px;
+    width: 531px;
+    height: 48px;
+    position: relative;
+    margin:  auto;
+}
+/* navbar styles */
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    width: 401px;
+    height: 24px;
+    position: relative;
+    margin: 0 auto;
+}
+nav ul li{
+   
+    list-style: none;
+   
+}
+nav ul li a{
+     text-decoration: none;
+     font-size: 16px;
+     color: #8987A1;
+     
+}
+nav ul li a:hover{
+    color: blue;
+}
 
 
