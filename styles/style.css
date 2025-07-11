@@ -120,6 +120,61 @@ main{
     color: #0000005A;
     font-size: 20px;
 }
+/* feddback style */
+.feedback-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    text-align: center;
+}
+
+ .feedback-container{
+    display: flex;
+    justify-content: space-between;
+ }
+
+.container-element{
+    border-radius: 14px;
+    padding: 24px;
+    height: 243px;
+    width: 366.67px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.container-title{
+    font-size: 24;
+    font-weight: 600;
+}
+.cotainer-description{
+    width: 318.67px;
+    height: 44px;
+    font-size: 16px;
+}
+
+.avatar{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-bottom: 4px;
+}
+
+.reviewer{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.name-date{
+    justify-content: space-around;
+}
+.name-date h2{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 600;
+}
+.name-date p{
+    color: #B3B3B3;
+    font-size: 16px;
+}
 
 
 
