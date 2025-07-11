@@ -176,6 +176,32 @@ main{
     font-size: 16px;
 }
 
+/* ready styles */
+.ready{
+    height: 696.77px;
+    width: auto;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    text-align: center;
+    padding: 71px 150px;
+    margin-top: 137px;
+}
 
+.ready-title{
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.ready-description{
+    font-size: 16px;
+}
+
+/* form styles */
+.form{
+
+    margin-top: 92.23px;
+    margin-bottom: 14px;
+}
 
 
