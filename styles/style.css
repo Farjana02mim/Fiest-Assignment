@@ -52,6 +52,9 @@ body{
     cursor: pointer;
     font-weight: bold;
 }
+.sign-up:hover{
+    background-color: orange;
+}
 .template{
     font-size: 65px;
     font-weight: bold;
@@ -198,10 +201,49 @@ main{
 }
 
 /* form styles */
-.form{
-
+.form-section{
+    display: flex;
+    justify-content: space-between;
     margin-top: 92.23px;
     margin-bottom: 14px;
 }
+.form-title{
+    font-size: 97px;
+    font-weight: bold;
+    height: 232px;
+    width: 528px;
+    position: relative;
+    margin: auto 0;
+}
+.form{
+    padding: 71px 0px;
+}
+.label{
+    font-size: 18px;
+    font-weight: 500;
+}
+.input{
+    font-size: 20px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 32px;
+    box-shadow: 0 0 5px #D6DDED;
+}
+.form-btn{
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    width: 100%; 
+    height: 62px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.form-btn:hover{
+    background-color: orange;
+}
+
 
 
