@@ -13,6 +13,9 @@
   font-variation-settings:
     "wdth" 100;
 }
+body{
+    background-color: #F5F8FF;
+}
 
 /* Banner Styles */
 .header{
@@ -60,9 +63,13 @@
 }
 
 /* main section */
+main{
+    margin: 116px 159px 116px 141px;
+    justify-content: space-between;
+
+}
 .main-section{
     display: flex;
-    margin: 116px 159px 116px 141px;
     justify-content: space-between;
 }
 .action{
@@ -80,16 +87,38 @@
     font-size: 24px;
     color: #252432;
 }
-
-.img-container{
-    width: 403px;
-    height: 328px;
-   border-radius: 48px;
+.product-main{
+    background-color: #4E47FF1A;
+    height: 306px;
+    width: auto;
+    margin: 116px 0px 137px 0px;
+    padding: 50px 142px;
+    border-radius: 24px;
+    
+    
+}
+.product-title{
+    color: #252432;
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
 }
 
 .product-users{
     display: flex;
     justify-content: space-around;
+    padding: 85px auto 50px;
+}
+
+.users-number{
+    /* margin-top: 40px; */
+    color: #4E47FF;
+    font-size: 80px;
+    font-weight: bold;
+}
+.description{
+    color: #0000005A;
+    font-size: 20px;
 }
 
 
