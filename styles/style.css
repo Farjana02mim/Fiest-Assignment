@@ -13,6 +13,7 @@
   font-variation-settings:
     "wdth" 100;
 }
+
 body{
     background-color: #F5F8FF;
 }
@@ -28,8 +29,6 @@ body{
 }
 
 .banner{
-    margin: 0;
-    padding: 0;
     background-image: url(../Assets/Hero-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -88,7 +87,7 @@ main{
 }
 .action p{
     font-size: 24px;
-    color: #252432;
+    color: #2524325A;
 }
 .product-main{
     background-color: #4E47FF1A;
@@ -122,6 +121,7 @@ main{
 .description{
     color: #0000005A;
     font-size: 20px;
+    text-align: center;
 }
 /* feddback style */
 .feedback-title{
@@ -129,6 +129,7 @@ main{
     font-weight: bold;
     color: #252432;
     text-align: center;
+    margin-bottom: 50px;
 }
 
  .feedback-container{
@@ -227,7 +228,7 @@ main{
     background-color: #FFFFFF;
     border: none;
     border-radius: 10px;
-    padding: 20px 32px;
+    padding: 0px 32px;
     box-shadow: 0 0 5px #D6DDED;
 }
 .form-btn{
@@ -248,7 +249,7 @@ main{
 /* footer styles */
 .footer-section{
     background-color: #FFFFFF;
-    height: 428px;
+    height: auto;
     width: auto;
     text-align: center;
     padding: 104px 455px 103px 454px;
